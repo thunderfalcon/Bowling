@@ -3,7 +3,7 @@ package com.feliperibeiro.bowling;
 public class BowlingGame {
 	int[] rolls;
 	int currentRoll;
-
+	{
 	public BowlingGame() {
 		this.rolls = new int[21];
 	}
@@ -11,7 +11,7 @@ public class BowlingGame {
 	public void roll(int p) {
 		rolls[currentRoll++] = p;
 	}
-
+}
 	public int score() {
 		int score = 0;
 		int frame = 0;
